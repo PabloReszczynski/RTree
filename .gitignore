@@ -42,3 +42,10 @@ cmake-build-debug/
 *.exe
 *.out
 *.app
+
+runUnitTests
+exe
+*.pc
+*.tcl
+googletest-download/
+googletest-src/
