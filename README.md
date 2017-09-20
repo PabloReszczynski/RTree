@@ -1,7 +1,15 @@
 # Una implementacion de RTree
 
 ## Como correr
-`cmake .`
-`make`
+Después de clonar:
+  `git submodule init`
+  
+Para compilar:
+`cmake .` `make`
+
+Para correr el ejecutable
 `./src/exe`
+
+Para correr los tests
+`./tests/runUnitTests`
 
