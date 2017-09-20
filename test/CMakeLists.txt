@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
 
-set(REPO ~/ClionProjects/.repo)
-
 project(Test)
 
 project(Example)
@@ -19,6 +17,7 @@ download_project(
 )
 
 add_subdirectory(${googletest_SOURCE_DIR} ${googletest_BINARY_DIR} EXCLUDE_FROM_ALL)
+include_directories(../src)
 
 set(test_SRCS IOTest.cpp RectangleTest.cpp RTreeTest.cpp)
 add_executable(runUnitTests gtest.cpp ${test_SRCS} IOTest.cpp RectangleTest.cpp RTreeTest.cpp)
