@@ -8,6 +8,10 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 cmake-build-debug/
+
+#CLION
+*.cbp
+
 .idea/
 .DS_Store
 # Prerequisites
