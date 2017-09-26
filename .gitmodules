@@ -1,3 +1,6 @@
 [submodule "DownloadProject"]
 	path = DownloadProject
 	url = https://github.com/Crascit/DownloadProject
+[submodule "serialization"]
+	path = serialization
+	url = https://github.com/boostorg/serialization.git

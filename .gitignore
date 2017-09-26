@@ -47,5 +47,7 @@ runUnitTests
 exe
 *.pc
 *.tcl
-googletest-download/
-googletest-src/
+
+
+*-download/
+*-src/
